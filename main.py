@@ -1,5 +1,6 @@
-from chiffrement import *
-from dechiffrement import *
+from chiffrement import chiffrement
+from dechiffrement import dechiffrement
+
 while True:
     choix = input("Souhaitez-vous [c]hiffrer ou [d]échiffrer un message ? ")
     if choix == "c":
